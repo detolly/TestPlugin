@@ -1,0 +1,38 @@
+name: TestPlugin
+main: no.detolly.TestPlugin.TestPlugin
+version: 0.1
+author: detolly
+commands:
+   fire:
+      description: Fire!
+      usage: /<fire>
+   god:
+      description: just be a god
+      usage: /<god>
+   info:
+      description: jasd
+      usage: /<info>
+   sethome:
+      description: set your home to current coords
+      usage: /<sethome>
+   home:
+      description: teleport to your home
+      usage: /<home>
+   timber:
+      description: change if you want to use timber or not.
+      usage: /<timber> [true/false]
+   back:
+      description: teleport to your last location.
+      usage: /<back>
+   ores:
+      description: change if you want to use oresmining or not
+      usage: /<ores> [true/false]
+   warp:
+      description: create warps
+      usage: /<warp> <create/remove> <name> [create:description]
+   warps:
+      description: get warps
+      usage: /<warps> [page]
+   to:
+      description: warp!
+      usage: /<to> <warp_name>
